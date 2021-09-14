@@ -1,8 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
-
-* {
-    font-family: 'Sora', sans-serif;
-    box-sizing: border-box;
+*{
     margin: 0;
     padding: 0;
+    
+}
+
+body {
+    background: #fff;
+}
+
+.pages {
+    color:#B0C4DE;
+    text-align: center;
+    font-size: 3.5em;
+    margin-top: 10%;
 }
