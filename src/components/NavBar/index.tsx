@@ -16,7 +16,7 @@ export const NavBar = () => {
                         <img src={logo} alt="Farmácia Rios"></img>
                         <p>Farmácia Rios</p>
                     </NavLink>
-
+                    
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
 
                         <li className="nav-item">
@@ -74,7 +74,7 @@ export const NavBar = () => {
                             </NavLink>
                         </li>
 
-                        <li className="nav-item">
+                        <li className="nav-item sair">
                             <NavLink to="/sair" activeClassName="active"
                                 className="nav-links" onClick={handleClick}>
                                 Sair

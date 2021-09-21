@@ -6,14 +6,21 @@ img {
 p, img {
     /* display: inline-block; */
     float: left;
-    font-size: 22px;
+    /* font-size: 22px; */
+    
+}
+
+p {
+    margin-top: 10px;
+    font-size: 18px;
+    
 }
 
 .navbar {
+    display: flex;
     height: 110%;
     background-color: #fa0000;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     font: size 1.2em;
     position:sticky;
@@ -80,7 +87,7 @@ p, img {
     
 }
 
-.nav-item .active {
+.nav-item.active {
     color:whitesmoke;
     border: 1px solid whitesmoke;
     background-color: rgb(255, 0, 0);
@@ -102,6 +109,7 @@ p, img {
         left: -110%;
         opacity: 1;
         transition: all 0.5s ease;
+        
     }
     
     .nav-menu.active{

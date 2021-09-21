@@ -11,14 +11,16 @@ import { Pedidos } from './pages/pedidos/';
 import { Produtos } from './pages/produtos/';
 import { Subcategorias } from './pages/subcategorias/';
 import { Usuarios } from './pages/usuarios/';
-import { UsuariosGestao } from './pages/usuarios_gestao'
+import { UsuariosGestao } from './pages/usuarios_gestao';
+import { Logon } from './pages/logon/';
 
 
 function App() {
   return (
     <Router>
+      
       <NavBar />
-
+      <Logon />
       <div className="pages">
         <Switch>
           <Route path="/" exact component={Home} />
